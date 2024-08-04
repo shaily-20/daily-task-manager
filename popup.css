@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 10px;
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 10px; /* Add space below the heading */
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center items */
+    margin-bottom: 5px;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+li button {
+    margin-left: 10px; /* Add space between task text and delete button */
+    padding: 4px 8px; /* Adjust padding to make the button smaller */
+    background-color: #f44336; /* Red color for delete button */
+}
+
+li button:hover {
+    background-color: #e53935; /* Darker red on hover */
+}

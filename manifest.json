@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Daily Task Manager",
+    "version": "1.0",
+    "description": "Manage your daily tasks.",
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "picthree.png",
+        "48": "pictwo.png",
+        "128": "vQluDZhZhGCz.gif"
+      }
+    },
+    "icons": {
+      "16": "picthree.png",
+      "48": "pictwo.png",
+      "128": "vQluDZhZhGCz.gif"
+    }
+  }
+  
