@@ -2,6 +2,7 @@
 
 Welcome to the Daily Task Manager! This Chrome extension helps you manage your daily tasks efficiently. You can add, mark as completed, and delete tasks. Tasks are stored using Chrome's storage API, ensuring they persist across browser sessions and devices.
 
+
 ## Features
 
 - **Add Tasks**: Enter new tasks into the input field and click "Add Task" or press "Enter" to add them to your list.
@@ -52,3 +53,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgements
 
 - Thanks to [Chrome Developers](https://developer.chrome.com/docs/extensions/mv3/) for their documentation and API support.
+
+## NOTE
+
+I would like to acknowledge that this extension was developed as a learning exercise. I utilized various public resources and existing code to help me understand and implement the functionality. This project is not solely my original work.
